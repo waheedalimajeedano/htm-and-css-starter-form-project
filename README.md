@@ -1,2 +1,24 @@
-# htm-and-css-starter-form-project
+# html-and-css-starter-form-project
 A simple and responsive HTML &amp; CSS form created as my first web project. This form includes basic input fields and showcases clean, beginner-friendly design using HTML and CSS.
+# 📝 My First Form
+A **responsive and beautifully styled HTML & CSS form** built as a beginner-friendly project to practice modern web form design. This project features clean UI, user-friendly input fields, and effective styling with Google Fonts, custom CSS, and semantic HTML structure.
+## 🌟 Features
+- 📄 Built using **pure HTML & CSS** (no frameworks)
+- 🧑‍💼 Includes essential form inputs:
+  - Text input (Name)
+  - Email, Phone, and Password fields
+  - Date Picker (Date of Birth)
+  - Dropdown (Gender selection)
+  - Radio Buttons (Subscription plans)
+  - Checkbox (Terms agreement)
+  - Textarea (Comments)
+- 🎨 Clean and modern design:
+  - Google Fonts (`Roboto Slab` & `Montserrat`)
+  - Responsive layout for mobile and desktop
+  - Stylish focus effects and button hover animations
+- ✅ Form validations using `required` attributes
+## 📷 Preview
+![Form Screenshot](https://via.placeholder.com/800x450?text=Form+Screenshot+Placeholder)
+
+> *You can update this image with a screenshot of your form later.*
+
