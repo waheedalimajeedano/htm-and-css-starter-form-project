@@ -1,6 +1,4 @@
-# html-and-css-starter-form-project
-A simple and responsive HTML &amp; CSS form created as my first web project. This form includes basic input fields and showcases clean, beginner-friendly design using HTML and CSS.
-# 📝 My First Form
+# 📝 My First HTML and CSS Form
 A **responsive and beautifully styled HTML & CSS form** built as a beginner-friendly project to practice modern web form design. This project features clean UI, user-friendly input fields, and effective styling with Google Fonts, custom CSS, and semantic HTML structure.
 ## 🌟 Features
 - 📄 Built using **pure HTML & CSS** (no frameworks)
