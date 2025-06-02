@@ -16,7 +16,6 @@ A **responsive and beautifully styled HTML & CSS form** built as a beginner-frie
   - Stylish focus effects and button hover animations
 - ✅ Form validations using `required` attributes
 
-</br>
-![Screenshot 2025-06-02 232845](https://github.com/user-attachments/assets/76f37a6b-bfee-4a06-9330-c4fa2e023e4a)
 
+![Screenshot 2025-06-02 232845](https://github.com/user-attachments/assets/dcef9276-b06b-4257-8b11-faa0ae71e668)
 
