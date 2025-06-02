@@ -17,8 +17,5 @@ A **responsive and beautifully styled HTML & CSS form** built as a beginner-frie
   - Responsive layout for mobile and desktop
   - Stylish focus effects and button hover animations
 - ✅ Form validations using `required` attributes
-## 📷 Preview
-![Form Screenshot](https://via.placeholder.com/800x450?text=Form+Screenshot+Placeholder)
 
-> *You can update this image with a screenshot of your form later.*
 
