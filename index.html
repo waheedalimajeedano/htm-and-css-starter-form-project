@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl Basic Form</title>
+   <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Slab&display=swap');
+
+  body {
+    font-family: 'Roboto Slab', serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    position: relative;
+    background: white;
+    padding: 60px 40px 40px;
+    border-radius: 14px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    max-width: 520px;
+    /* Removed overflow and max-height for no scrolling */
+  }
+
+  form > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: #222;
+    margin: 0 0 20px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  form > p {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+    padding: 14px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(255, 75, 43, 0.45);
+    text-align: center;
+    margin: 0 0 35px 0;
+    letter-spacing: 1.2px;
+    z-index: 10;
+  }
+
+  form div {
+    margin-bottom: 22px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+    font-size: 1rem;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.8px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #ff4b2b;
+    box-shadow: 0 0 8px #ff4b2baa;
+    outline: none;
+  }
+
+  select {
+    background-color: #fff;
+  }
+
+  input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.15);
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  form div > p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #555;
+  }
+
+  input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    background: linear-gradient(90deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 14px 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: background 0.35s ease;
+  }
+
+  button[type="submit"]:hover {
+    background: linear-gradient(90deg, #e03e5a, #d43e2a);
+  }
+
+  @media (max-width: 600px) {
+    form {
+      padding: 50px 25px 30px;
+    }
+  }
+</style>
+
+</head>
+<body>
+    <!--Form starts here-->
+    <form action="/submit.php">
+    <!--Text inut for name-->
+        <div>
+        <label for="name">Name</label>
+        <input id="name" type="text"placeholder="Enter name"required>
+        </div>
+        <!--Phone input-->
+          <div>
+        <label for="phone">Phone</label>
+        <input id="phone" type="tel"placeholder="Enter phone"required>
+        </div>
+        <!--Email input-->
+           <div>
+        <label for="email">Email</label>
+        <input id="email" type="email"placeholder="Enter e-mail"required>
+        </div>
+        <!--Password input-->
+           <div>
+        <label for="password">Password</label>
+        <input id="password" type="password"placeholder="Enter password"required>
+        </div>
+        <!--Date input-->
+           <div>
+        <label for="dob">Date of Birth</label>
+        <input id="dob" type="date"required>
+        </div>
+        <!--Dropdwon (select input for Gender)-->
+           <div>
+        <label for="gender">Gender</label>
+        <select id="gender"required>
+            <option value=""disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        </div>
+        <!--Radio Button for Subscription Plan-->
+          <div>
+            <p>Subscription Plan</p>
+        <input id="Basic" type="radio" name="Subscription" value="Basic">
+        <label for="Basic">Basic</label>
+        <input id="Premium" type="radio" name="Subscription" value="Premium">
+        <label for="Premium">Premium</label>
+        <input id="VIP" type="radio" name="Subscription" value="VIP">
+        <label for="VIP">VIP</label>
+        </div>
+        <!--Cheack box for terms agreement -->
+        <div>
+            <input id="terms"type="checkbox"required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </div>
+        <!--Textarea for comments -->
+        <div>
+            <label for="comments">Comments</label>
+            <textarea id="comments"placeholder="Enter your comments" rows="4"></textarea>
+        </div>
+        <!--Submit button-->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <!--Form ends here-->
+</body>
+</html>
